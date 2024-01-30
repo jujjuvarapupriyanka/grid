@@ -1,0 +1,72 @@
+<html>
+    <body>
+        <head>
+            <style>
+                
+                    
+                    
+                    
+                
+                
+                .one{
+                    display: grid;
+                    width: 700px;
+                    height:250px;
+                    background-color: rgb(245, 240, 240);
+                    grid-template-columns: auto auto auto;
+                    grid-gap: 15px;                 
+
+                }
+                .one div{
+                    background-color: coral;  
+                
+                    text-align: center;
+                    
+                    
+                }
+                #a{
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                }
+                #b{
+                    grid-column-start: 3;
+                    grid-column-end: 5;
+
+                }
+                #two{
+                    display: grid;
+                    width: 700px;
+                    height:250px;
+                    background-color: rgb(245, 240, 240);
+                    grid-template-columns: auto auto auto;
+                    grid-gap: 15px;                 
+
+                }
+                #two div{
+                    background-color: rgb(174, 201, 236);  
+                
+                    text-align: center;
+                }
+                  
+                
+            </style>
+        </head>
+    <div id="p">
+        <div class="one">
+            <div id="a" style="align-items: center;">1</div>
+            <div id="b">2</div>
+            <div id="c">3</div>
+            <div id="d">4</div>
+        </div>
+        &nbsp;
+        <div id="two">
+            <div id="a">1</div>
+            <div id="b">2</div>
+            <div id="c">3</div>
+            <div id="d">4</div>
+        </div>
+    </div>    
+    </body>
+</html>
